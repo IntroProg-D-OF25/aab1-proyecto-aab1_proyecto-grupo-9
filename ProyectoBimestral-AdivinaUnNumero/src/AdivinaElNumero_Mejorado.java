@@ -1,4 +1,4 @@
-
+//Autor: DAVID MORA
 import java.util.Scanner;
 
 public class AdivinaElNumero_Mejorado {
@@ -112,3 +112,41 @@ public class AdivinaElNumero_Mejorado {
     }
 
 }
+/***
+ * ADIVINA EL NUMERO QUE ESTOY PENSANDO
+Te quedan 10 intentos 
+Introduce tu numero: 
+25
+El numero es menor
+Te quedan 9 intentos.
+Deseas una pista secreta? (1)Si (0)No
+1
+Que pista secreta deseas?: (1) (2) (3) (4) (5) (6) (7)
+1
+El numero es par
+Te quedan 8 intentos
+Introduce tu numero: 
+20
+El numero es mayor
+Te quedan 7 intentos.
+Deseas una pista secreta? (1)Si (0)No
+1
+Que pista secreta deseas?: (1) (2) (3) (4) (5) (6) (7)
+7
+El numero es menor que 84
+Te quedan 6 intentos
+Introduce tu numero: 
+22
+El numero es mayor
+Te quedan 5 intentos.
+Deseas una pista secreta? (1)Si (0)No
+0
+Te quedan 5 intentos
+Introduce tu numero: 
+24
+FELICIDADES! El numero era: 24
+FIN DEL JUEGO
+Desea seguir Jugando? (1) Si (2) No
+2
+ */
+
