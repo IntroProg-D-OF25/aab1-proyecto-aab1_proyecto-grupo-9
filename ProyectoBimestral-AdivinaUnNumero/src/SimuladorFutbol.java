@@ -6,9 +6,7 @@ public class SimuladorFutbol {
 
     public static void main(String[] args) {
 
-        int jugadoresPorEquipo = 4;
-        int contador = 0;
-        int golesEquipoA, golesEquipoB;
+        int jugadoresPorEquipo = 4, contador = 0, golesEquipoA, golesEquipoB;
         String[] posiciones = {"Arquero", "Defensa", "Mediocampo", "Delantero"};
         Random random = new Random();
 
@@ -71,8 +69,7 @@ public class SimuladorFutbol {
     }
 
     public static int calcularGoles(String[][] equipo) {
-        int totalGolesEquipos = 0;
-        int contador = 0;
+        int totalGolesEquipos = 0, contador = 0;
         while (contador < equipo.length) {
             totalGolesEquipos = ((contador));
             contador++;
